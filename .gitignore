@@ -1,0 +1,20 @@
+# dev env
+.direnv
+
+list.json
+
+# docs
+man 
+
+# build artifacts
+*.spall
+builds
+envr
+envr-go
+envr-prof
+kilo
+findr/findr
+findr/findr-prof
+findr/bench-*.md
+result
+version.odin
