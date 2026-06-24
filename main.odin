@@ -17,7 +17,14 @@ Editor_Config :: struct {
 	cx, cy:       int,
 	screen_rows:  int,
 	screen_cols:  int,
+	num_rows:     int,
+	row:          Row,
 	orig_termios: posix.termios,
+}
+
+Row :: struct {
+	len:   int,
+	chars: []rune,
 }
 
 Win_Size :: struct {
